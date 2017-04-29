@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>April Hackathon</title>
+        <link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
     <body>
+        <!--<canvas id="canvas">
+        <img id="earth" src="http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Earth-PNG-Transparent-Image.png"> -->
+        <div id="SplashScreen">
+            <h1>Future of the Earth</h1>
+        </div>
+        <input id="StartButton" type="button" onclick="location.href='game1.html';" value="Start" />
+
+        <p id="demo"></p>
+        <button onclick="myFunction()">Instruction</button>
+
+        <script>
+            function myFunction() {
+                if (document.getElementById("demo").innerHTML==="") {
+                    document.getElementById("demo").innerHTML="As time moves forward, the human race has been able to design and develop technology that can resolve Earth's issues.The objective of the game is to use the ball to hit Earth's issues above Earth by using the mouse cursor guiding the bar to the ball. Avoid letting the ball fall into Earth.";
+                } else {
+                    document.getElementById("demo").innerHTML=""
+                }
+            };
+            
+            
+        </script>
+
+        <script type="text/javascript" src="script.js">
+            //   <HelpButton onclick="myFunction()" start</HelpButton>
+
+            // <input id="Instruction" type="button" value="instruction"/> <
+            // /div> <
         
+
+
+
+            //     <script type="text/javascript" src="script.js">
+        </script>  
     </body>
 </html>

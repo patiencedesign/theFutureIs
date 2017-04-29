@@ -1,5 +1,5 @@
 # The_Future_Is
-## April Hackathon
+### April Hackathon
 
 The theme of our program is "The Future of the Earth."
 We created a game similar to pong. The objective is the get rid of the blocks that surround the Earth.
